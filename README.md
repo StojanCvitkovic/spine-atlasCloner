@@ -6,6 +6,7 @@ Sometimes there can be dozens of .json files exported from Spine, so in order to
 Also it edits the .atlas file to point to the corresponding texture image, if you have changed it's name.
 
 How to use:
+
 -Clone/download spine-atlasCloner project locally
 -Navigate to \Atlas Cloner\bin\Debug\ and open Atlas Cloner.exe
 -Enter the path where the exported files are located
