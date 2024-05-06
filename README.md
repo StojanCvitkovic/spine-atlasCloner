@@ -8,7 +8,5 @@ Also it edits the .atlas file to point to the corresponding texture image, if yo
 How to use:
 
 -Clone/download spine-atlasCloner project locally
-
 -Navigate to \Atlas Cloner\bin\Debug\ and open Atlas Cloner.exe
-
 -Enter the path where the exported files are located
