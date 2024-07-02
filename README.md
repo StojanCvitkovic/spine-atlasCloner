@@ -1,7 +1,7 @@
 # spine-atlasCloner
 A tool for creating an atlas for each individual .json file exported from Spine
 
-Each Spine element must have a .json and .atlas file with the same name. If the atlases are combined into one, duplicating and renaming the .atlas file is necessary for each .json file. Sometimes there can be dozens of .json files exported from Spine, so to bypass duplicating and renaming, this tool was created to do it for you.
+Each Spine element must have a .json and .atlas file with the same name. If the atlases are combined into one, duplicating and renaming the .atlas file is necessary for each .json file. Sometimes there can be dozens of .json files exported from Spine, so to bypass duplicating and renaming, this tool was created to do it for you.  
 Additionally, it edits the .atlas file to point to the corresponding texture image if you have changed its name.
 
 How to use:  
