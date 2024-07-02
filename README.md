@@ -9,5 +9,5 @@ How to use:
 -Navigate to \Atlas Cloner\bin\Debug\ and open Atlas Cloner.exe  
 -Enter the path where the exported files are located
 
-Documeentation:  
+Documentation:  
 https://docs.google.com/document/d/1QMOVznWRhKxZiBQdSn3FAsIgFR6xlQmLLceQb3byigU/edit
