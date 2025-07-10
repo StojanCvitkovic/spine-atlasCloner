@@ -8,9 +8,9 @@ A tool for auto-duplicating and renaming Spine `.atlas` files to match each expo
 - Optionally edits the `.atlas` file to point to the correct texture image if you have renamed it
 
 ## How to use  
--Clone/download spine-atlasCloner project locally  
--Navigate to: \Atlas Cloner\bin\Debug\ and open Atlas Cloner.exe  
--Enter the path where the exported files are located
+- Clone/download spine-atlasCloner project locally  
+- Navigate to: \Atlas Cloner\bin\Debug\ and open Atlas Cloner.exe  
+- Enter the path where the exported files are located
 
 ## Documentation:  
 https://docs.google.com/document/d/1QMOVznWRhKxZiBQdSn3FAsIgFR6xlQmLLceQb3byigU/edit
