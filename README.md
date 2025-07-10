@@ -1,12 +1,16 @@
-# spine-atlasCloner
-A tool for creating an atlas for each individual .json file exported from Spine
+# Spine Atlas Cloner
 
-Each Spine element must have a .json and .atlas file with the same name. If the atlases are combined into one, duplicating and renaming the .atlas file is necessary for each .json file. Sometimes there can be dozens of .json files exported from Spine, so to bypass duplicating and renaming, this tool was created to do it for you.  
-Additionally, it edits the .atlas file to point to the corresponding texture image if you have changed its name.
+A tool for auto-duplicating and renaming Spine `.atlas` files to match each exported `.json` file automatically, removing the need for manual duplication and renaming when dealing with dozens of exported Spine files.
+
+## Features
+- Automatically duplicates a combined `.atlas` file for each `.json` file exported from Spine.  
+- Renames `.atlas` files to match corresponding `.json` file names.  
+- Optionally edits the `.atlas` file to point to the correct texture image if you have renamed it.  
+- Saves time in large Spine projects with many separate animations.
 
 How to use:  
 -Clone/download spine-atlasCloner project locally  
--Navigate to \Atlas Cloner\bin\Debug\ and open Atlas Cloner.exe  
+-Navigate to: \Atlas Cloner\bin\Debug\ and open Atlas Cloner.exe  
 -Enter the path where the exported files are located
 
 Documentation:  
