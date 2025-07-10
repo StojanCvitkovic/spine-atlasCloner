@@ -41,6 +41,7 @@ namespace Atlas_Cloner
             this.textPath.Name = "textPath";
             this.textPath.Size = new System.Drawing.Size(300, 20);
             this.textPath.TabIndex = 0;
+            this.textPath.TextChanged += new System.EventHandler(this.textPath_TextChanged);
             // 
             // labelPath
             // 

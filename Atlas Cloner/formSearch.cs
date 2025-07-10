@@ -42,8 +42,29 @@ namespace Atlas_Cloner
 
         private void buttonRun_Click(object sender, EventArgs e)
         {
-            string path = textPath.Text;
-            Process.Start("atlasCloner.bat", path);
+            string path = textPath.Text.Trim();
+
+            var psi = new ProcessStartInfo
+            {
+                FileName = "atlasCloner.bat",
+                Arguments = "\"" + path + "\"",
+                UseShellExecute = true, // ili false ako želiš redirect output
+                WorkingDirectory = Application.StartupPath // folder gdje je .bat
+            };
+
+            try
+            {
+                Process.Start(psi);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error running atlasCloner.bat: " + ex.Message);
+            }
+        }
+
+        private void textPath_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
