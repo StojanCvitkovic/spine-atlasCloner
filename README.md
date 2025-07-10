@@ -9,7 +9,7 @@ A tool for auto-duplicating and renaming Spine `.atlas` files to match each expo
 
 ## How to use  
 - Clone/download spine-atlasCloner project locally  
-- Navigate to: \Atlas Cloner\bin\Debug\ and open Atlas Cloner.exe  
+- Run Atlas Cloner.bat
 - Enter the path where the exported files are located
 
 ## Documentation:  
