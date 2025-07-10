@@ -2,7 +2,7 @@
 setlocal enableDelayedExpansion
 
 SET target_directory=%1
-CD /D %target_directory%
+CD /D "%target_directory%"
 
 REM Pronalaženje prve .atlas datoteke u trenutnom direktoriju
 FOR /R %%F IN (*.atlas) DO (
